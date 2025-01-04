@@ -25,14 +25,6 @@ This is a Python-based implementation of the classic board game **Trouble**. The
 - Tokens of the same color cannot occupy the same space.
 - Rolling a 6 grants an extra turn.
 
-## Setup
-- Ensure you have Python installed (version 3.x recommended).
-- Save the `boardgame.py` file in a directory of your choice.
-- Run the script using the command:
-  ```bash
-  python boardgame.py
-  ```
-
 ## Code Overview
 - **Dice Rolls:** The `dice()` function generates a random number between 1 and 6, simulating a dice roll.
 - **Game Board:** The game board is displayed using a 2D list, dynamically updated to reflect token movements.
